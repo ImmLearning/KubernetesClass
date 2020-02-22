@@ -1,3 +1,7 @@
+#To execute this type 
+#wget -O - https://raw.githubusercontent.com/ImmLearning/KubernetesClass/master/installminikube.sh | bash
+
+
 #!/bin/sh
 sudo apt-get update -y && upgrade;sudo apt-get install -y docker;sudo apt-get install -y apt-transport-https;sudo apt-get install -y virtualbox virtu
 albox-ext-pack;curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -;sudo touch /etc/apt/sources.list.d/kubernetes.list;echo "deb http://apt.kube
